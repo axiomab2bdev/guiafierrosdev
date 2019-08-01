@@ -1,0 +1,2 @@
+<li><a href="admin_discount_codes.php"><div class="icon icon_calculator"></div><?php echo $lang['admin_discount_codes']; ?></a></li>
+<li><a href="admin_discount_codes.php?action=add"><div class="icon icon_calculator_add"></div><?php echo $lang['admin_discount_codes_add']; ?></a></li>

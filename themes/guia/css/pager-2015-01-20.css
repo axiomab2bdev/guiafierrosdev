@@ -1,0 +1,66 @@
+.pagination {
+	margin: 20px 0 0 0;
+	text-align: center;
+	overflow: hidden;
+}
+
+.pagination-next-prev {
+	position: relative;
+	top: -36px;
+}
+
+.pagination ul li {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+.pagination ul li a,
+.pagination-next-prev ul li a {
+	padding: 9px 14px;
+	border-bottom: none;
+	display: inline-block;
+	color: #909090;
+	background-color: #f4f4f4;
+	font-weight: 700;
+	margin:0;
+	-webkit-transition: all 200ms ease-in-out;
+	-moz-transition: all 200ms ease-in-out;
+	-o-transition: all 200ms ease-in-out;
+	-ms-transition: all 200ms ease-in-out;
+	transition: all 200ms ease-in-out;
+}
+
+.pagination ul li a.current-page {
+	background-color: #808080;
+	color: #fff;
+}
+
+.pagination .current,
+.pagination ul li a:hover,
+.pagination-next-prev ul li a:hover {
+	background: #808080;
+	color: #fff;
+}
+
+.pagination-next-prev a.next { float: right; }
+.pagination-next-prev a.prev { float: left; }
+
+.pagination-next-prev ul li a {
+	width: 36px;
+	height: 36px;
+	padding: 0;
+	color: #999;
+}
+
+.pagination-next-prev .prev:before,
+.pagination-next-prev .next:before {
+	font-family: "FontAwesome";
+	font-size: 12px;
+	position: relative;
+	display: block;
+	line-height: 19px;
+}
+
+.pagination-next-prev .next:before { content: ""; margin: 9px 0 0 14px;}
+.pagination-next-prev .prev:before { content: ""; margin: 9px 0 0 12px; }

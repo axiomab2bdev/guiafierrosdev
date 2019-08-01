@@ -1,0 +1,1 @@
+<li><a href="admin_log.php?action=clear" onclick="return confirm('<?php echo $this->escape_js_string($lang['messages_confirm']); ?>');"><div class="icon icon_trash"></div><?php echo $lang['admin_log_clear']; ?></a></li>

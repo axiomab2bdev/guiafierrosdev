@@ -1,0 +1,5 @@
+[10-Jun-2016 11:44:47 America/Denver] PHP Fatal error:  Class 'Swift_Mime_Attachment' not found in /home/revista/public_html/guia/includes/Mailer/classes/Swift/Attachment.php on line 19
+[10-Jun-2016 11:45:18 America/Denver] PHP Fatal error:  Class 'Swift_Mime_Attachment' not found in /home/revista/public_html/guia/includes/Mailer/classes/Swift/Attachment.php on line 19
+[11-Jun-2016 08:13:42 America/Denver] PHP Fatal error:  Class 'Swift_Mime_Attachment' not found in /home/revista/public_html/guia/includes/Mailer/classes/Swift/Attachment.php on line 19
+[11-Jun-2016 08:13:58 America/Denver] PHP Fatal error:  Class 'Swift_Mime_Attachment' not found in /home/revista/public_html/guia/includes/Mailer/classes/Swift/Attachment.php on line 19
+[11-Jun-2016 13:57:12 America/Denver] PHP Fatal error:  Class 'Swift_Mime_Attachment' not found in /home/revista/public_html/guia/includes/Mailer/classes/Swift/Attachment.php on line 19

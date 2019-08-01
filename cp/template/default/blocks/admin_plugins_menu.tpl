@@ -1,0 +1,2 @@
+<li><a href="admin_plugins.php"><div class="icon icon_plugin"></div><?php echo $lang['admin_plugins']; ?></a></li>
+<li><a href="admin_plugins.php?action=add"><div class="icon icon_plugin_add"></div><?php echo $lang['admin_plugins_add']; ?></a></li>

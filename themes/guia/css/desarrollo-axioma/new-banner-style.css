@@ -1,0 +1,73 @@
+#animated-pauta {
+	/*height: 59px;*/
+	width: 100%;
+	position: relative;
+	z-index: 999;
+}
+#animated-pauta.open-banner {
+	height: auto;
+}
+#ad-button {
+	background-color: #333;
+	color: #fff;
+	padding: 0 5px 0 5px;
+	cursor: pointer;
+	text-align: center;
+	margin: 0;
+	right: 0;
+	float: right;
+	z-index: 2;
+	border: 1px solid #333;
+	font-size: 10px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	box-sizing: border-box;
+	line-height: 20px;
+	position: absolute;
+	top: -22px;
+}
+.banner-container {
+	width: 100%;
+	text-align: center;
+	z-index: 130 !important;
+	min-height: 40px;
+}
+#ad-slot-1 img {
+	vertical-align: bottom;
+	width: 100%;
+}
+.main-ad-container {
+	display: none;
+}
+#ad-slot-2 {
+	width: 100%;
+	display: none;
+	float: left;
+}
+.ad-active {
+	display: block;
+}
+.float_banner{
+	display: none;
+}
+#iframe-close{
+	background-color: #A21D33;
+	box-shadow: none;
+	display: none;
+	position:absolute;
+	z-index:9999999999 !important;
+	width:50px;
+	height:50px;
+}
+
+#iframe-close:hover{
+	background: #F8F8FF;
+	color: #696969;
+}
+.float_banner{
+	background-color: rgba(255,255,255,0.5);
+	position: fixed;
+	z-index: 999999;
+	height: 100%;
+	width: 100%;
+}

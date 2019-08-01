@@ -1,0 +1,2 @@
+<?php ?>
+<li><a href="/category/<?php echo CHtml::encode($data->friendly_url); ?>"><?php echo CHtml::encode($data->title); ?> (<?php echo Categories::model()->getCountByCategoryId($data->id) ?>)</a></li>

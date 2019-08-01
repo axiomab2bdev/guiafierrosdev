@@ -1,0 +1,2 @@
+<li><a href="admin_site_links.php"><div class="icon icon_link"></div><?php echo $lang['admin_site_links']; ?></a></li>
+<li><a href="admin_site_links.php?action=add"><div class="icon icon_link_add"></div><?php echo $lang['admin_site_links_add']; ?></a></li>

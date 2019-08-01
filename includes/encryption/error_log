@@ -1,0 +1,4 @@
+[10-Jun-2016 21:48:36 America/Denver] PHP Fatal error:  Class 'Aes' not found in /home/revista/public_html/guia/includes/encryption/AesCtr.inc.php on line 9
+[11-Jun-2016 08:13:40 America/Denver] PHP Fatal error:  Class 'Aes' not found in /home/revista/public_html/guia/includes/encryption/AesCtr.inc.php on line 9
+[11-Jun-2016 11:01:00 America/Denver] PHP Fatal error:  Class 'Aes' not found in /home/revista/public_html/guia/includes/encryption/AesCtr.inc.php on line 9
+[11-Jun-2016 13:57:24 America/Denver] PHP Fatal error:  Class 'Aes' not found in /home/revista/public_html/guia/includes/encryption/AesCtr.inc.php on line 9

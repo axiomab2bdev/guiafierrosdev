@@ -1,0 +1,162 @@
+.recipe-box-content {
+	min-height: 92px;
+}
+
+.author-box a {
+    color:rgb(189, 186, 186);
+    font-weight: bold;
+	text-decoration: underline;
+}
+
+.ui-datepicker-title {
+    display: inline-flex;
+    width: 80%;
+}
+
+/*****error select****/
+.error-select {
+    -webkit-animation-name: error; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 3s; /* Chrome, Safari, Opera */
+    animation-name: error;
+    animation-duration: 3s;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes error{
+    0%{
+         -webkit-box-shadow: 0px 0px 35px -2px rgba(255,0,0,1);
+         -moz-box-shadow: 0px 0px 35px -2px rgba(255,0,0,1);
+         box-shadow: 0px 0px 35px -2px rgba(255,0,0,1);
+         }
+    25%{
+       -webkit-box-shadow: 0px 0px 0px 0px rgba(255,0,0,1);
+       -moz-box-shadow: 0px 0px 0px 0px rgba(255,0,0,1);
+       box-shadow: 0px 0px 0px 0px rgba(255,0,0,1);
+       }
+    50%{
+         -webkit-box-shadow: 0px 0px 35px -2px rgba(255,0,0,1);
+         -moz-box-shadow: 0px 0px 35px -2px rgba(255,0,0,1);
+         box-shadow: 0px 0px 35px -2px rgba(255,0,0,1);
+         }
+    100%{
+       -webkit-box-shadow: 0px 0px 0px 0px rgba(255,0,0,1);
+       -moz-box-shadow: 0px 0px 0px 0px rgba(255,0,0,1);
+       box-shadow: 0px 0px 0px 0px rgba(255,0,0,1);
+       }
+}
+
+/* Standard syntax */
+@keyframes error{
+    0%{
+         -webkit-box-shadow: 0px 0px 35px -2px rgba(255,0,0,1);
+         -moz-box-shadow: 0px 0px 35px -2px rgba(255,0,0,1);
+         box-shadow: 0px 0px 35px -2px rgba(255,0,0,1);
+         }
+    25%{
+       -webkit-box-shadow: 0px 0px 0px 0px rgba(255,0,0,1);
+       -moz-box-shadow: 0px 0px 0px 0px rgba(255,0,0,1);
+       box-shadow: 0px 0px 0px 0px rgba(255,0,0,1);
+       }
+    50%{
+         -webkit-box-shadow: 0px 0px 35px -2px rgba(255,0,0,1);
+         -moz-box-shadow: 0px 0px 35px -2px rgba(255,0,0,1);
+         box-shadow: 0px 0px 35px -2px rgba(255,0,0,1);
+         }
+    100%{
+       -webkit-box-shadow: 0px 0px 0px 0px rgba(255,0,0,1);
+       -moz-box-shadow: 0px 0px 0px 0px rgba(255,0,0,1);
+       box-shadow: 0px 0px 0px 0px rgba(255,0,0,1);
+       }
+}
+/*****error select****/
+/*****multi select****/
+.chosen-container-multi .chosen-choices li.search-choice .search-choice-close {
+  position: absolute;
+  top: 4px;
+  right: 3px;
+  display: block;
+  width: 12px;
+  height: 12px;
+  background: url('chosen-sprite.png') -42px 1px no-repeat;
+  font-size: 1px;
+}
+/*****multi select****/
+/**** height default bos category ****/
+.category-height{
+    height: 30px !important;
+}
+.category-height h3{
+	font-size: 16px !important;	
+}
+/**** center class default ****/
+.center{
+    text-align: center;
+}
+/*********/
+.list-style .thumbnail-holder.listings-list{
+	height: 100% !important;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 95% auto;
+}
+
+/********/
+.three.columns.align-right {
+   float: right;
+   margin: auto auto;margin-top: 12px;}
+.four.columns.btn-group.btn-group-justified {
+    margin-left: 2px;
+	width: 300px;
+}
+.popover-classifieds button {
+    border: 1px solid #808080;
+    margin-top: 12px !important;
+    padding: 4px !important;
+    margin: 4px;
+}
+.popover-classifieds button:last-child {
+    
+    margin-left: 0px;
+}
+
+@media only screen and (max-width: 767px) and (min-width: 480px){
+	.four.columns.btn-group.btn-group-justified {
+		width: 100%;
+	}
+	button.btn.btn-primary.popover-show {
+		width: 28%;
+	}	
+}
+@media only screen and (max-width: 990px) and (min-width: 768px){
+button.btn.btn-primary.popover-show {
+    width: 28%;
+}
+
+.container.submenu-classifieds .four, .container.submenu-classifieds .three {float: inherit;display: flex;width: 100%;}
+
+.container.submenu-classifieds >.eight.columns {
+    margin-left: 15%;
+    width: auto;
+    text-align: center;
+}
+.three.columns.align-right {
+   float: left;
+   margin: 13%;
+   margin-top: 12px;
+   width: auto;
+   margin-bottom: 10px;
+   }
+   #titlebar #keyword, #titlebar #location, #titlebar #location_chosen, #titlebar .chosen-single{
+       width: 500px;
+   }
+   .three.columns.align-right{
+       margin-left: 15%;
+   }
+} 
+/****list-style background*****/
+.list-style .thumbnail-holder.listings-list{
+	height: 100% !important;
+	background-repeat: no-repeat;
+	background-position: 50%;
+	background-size: 95% auto;
+}

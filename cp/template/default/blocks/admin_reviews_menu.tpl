@@ -1,0 +1,9 @@
+<li><a href="admin_ratings.php"><div class="icon icon_star"></div><?php echo $lang['admin_ratings']; ?></a></li>
+<li><a href="admin_ratings.php?action=add"><div class="icon icon_star_add"></div><?php echo $lang['admin_ratings_add']; ?></a></li>
+<li><a href="admin_reviews.php"><div class="icon icon_review"></div><?php echo $lang['admin_reviews']; ?></a></li>
+<li><a href="admin_reviews.php?status=active"><div class="icon icon_review"></div><?php echo $lang['admin_reviews_active']; ?></a></li>
+<li><a href="admin_reviews.php?status=pending"><div class="icon icon_review"></div><?php echo $lang['admin_reviews_pending']; ?></a></li>
+<li><a href="admin_reviews.php?action=add"><div class="icon icon_review_add"></div><?php echo $lang['admin_reviews_add']; ?></a></li>
+<li><a href="admin_reviews_comments.php"><div class="icon icon_comments"></div><?php echo $lang['admin_reviews_comments']; ?></a></li>
+<li><a href="admin_reviews_comments.php?status=active"><div class="icon icon_comments"></div><?php echo $lang['admin_reviews_comments_active']; ?></a></li>
+<li><a href="admin_reviews_comments.php?status=pending"><div class="icon icon_comments"></div><?php echo $lang['admin_reviews_comments_pending']; ?></a></li>

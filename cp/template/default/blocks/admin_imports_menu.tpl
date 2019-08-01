@@ -1,0 +1,2 @@
+<li><a href="admin_import.php"><div class="icon icon_arrow_green"></div><?php echo $lang['admin_imports_import']; ?></a></li>
+<li><a href="admin_imports.php"><div class="icon icon_page_arrow_green"></div><?php echo $lang['admin_imports']; ?></a></li>

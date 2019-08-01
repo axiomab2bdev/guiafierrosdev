@@ -1,0 +1,3 @@
+[17-Nov-2015 13:31:44] PHP Parse error:  syntax error, unexpected '[' in /home/fierros/public_html/config/db.php on line 3
+[17-Nov-2015 13:31:59] PHP Parse error:  syntax error, unexpected '[' in /home/fierros/public_html/config/web.php on line 5
+[17-Nov-2015 13:34:39] PHP Parse error:  syntax error, unexpected '[' in /home/fierros/public_html/config/web.php on line 5

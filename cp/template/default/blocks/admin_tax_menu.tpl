@@ -1,0 +1,2 @@
+<li><a href="admin_tax.php"><div class="icon icon_page"></div><?php echo $lang['admin_tax_rates']; ?></a></li>
+<li><a href="admin_tax.php?action=add"><div class="icon icon_page_add"></div><?php echo $lang['admin_tax_add']; ?></a></li>

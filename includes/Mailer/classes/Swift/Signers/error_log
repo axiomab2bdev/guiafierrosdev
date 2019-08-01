@@ -1,0 +1,8 @@
+[09-Jun-2016 22:09:49 America/Denver] PHP Fatal error:  Interface 'Swift_Signer' not found in /home/revista/public_html/guia/includes/Mailer/classes/Swift/Signers/BodySigner.php on line 19
+[10-Jun-2016 05:09:29 America/Denver] PHP Fatal error:  Interface 'Swift_Signer' not found in /home/revista/public_html/guia/includes/Mailer/classes/Swift/Signers/BodySigner.php on line 19
+[10-Jun-2016 08:33:12 America/Denver] PHP Fatal error:  Interface 'Swift_Signer' not found in /home/revista/public_html/guia/includes/Mailer/classes/Swift/Signers/BodySigner.php on line 19
+[10-Jun-2016 11:45:19 America/Denver] PHP Fatal error:  Interface 'Swift_Signers_HeaderSigner' not found in /home/revista/public_html/guia/includes/Mailer/classes/Swift/Signers/DomainKeySigner.php on line 19
+[10-Jun-2016 17:46:27 America/Denver] PHP Fatal error:  Interface 'Swift_Signers_HeaderSigner' not found in /home/revista/public_html/guia/includes/Mailer/classes/Swift/Signers/DomainKeySigner.php on line 19
+[10-Jun-2016 21:48:43 America/Denver] PHP Fatal error:  Interface 'Swift_Signer' not found in /home/revista/public_html/guia/includes/Mailer/classes/Swift/Signers/BodySigner.php on line 19
+[11-Jun-2016 00:56:17 America/Denver] PHP Fatal error:  Interface 'Swift_Signers_HeaderSigner' not found in /home/revista/public_html/guia/includes/Mailer/classes/Swift/Signers/DomainKeySigner.php on line 19
+[11-Jun-2016 13:57:10 America/Denver] PHP Fatal error:  Interface 'Swift_Signers_HeaderSigner' not found in /home/revista/public_html/guia/includes/Mailer/classes/Swift/Signers/DomainKeySigner.php on line 19
